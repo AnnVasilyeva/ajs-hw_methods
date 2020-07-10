@@ -164,6 +164,6 @@ test('Проверка damage при health < 0', () => {
 test('Проверка type', () => {
   expect(() => {
     const undead = new Undead('Richard', 'Unreal');
-    return bow;
+    return undead;
   }).toThrow();
 });
